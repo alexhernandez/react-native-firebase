@@ -113,4 +113,10 @@ Object.defineProperty(global, 'storageModular', {
   },
 });
 
+Object.defineProperty(global, 'firestoreModular', {
+  get() {
+    return jet.firestoreModular;
+  },
+});
+
 global.isCI = !!process.env.CI;
