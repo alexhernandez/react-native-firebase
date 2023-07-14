@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.2.0](https://github.com/invertase/react-native-firebase/compare/v18.1.0...v18.2.0) (2023-07-13)
+
+### Bug Fixes
+
+- **app, ios:** incorporate firebase-ios-sdk 10.12.0 ([#7231](https://github.com/invertase/react-native-firebase/issues/7231)) ([ee66459](https://github.com/invertase/react-native-firebase/commit/ee66459cd214ffb84ce2d4e15eef79d047f075ab))
+
+## [18.1.0](https://github.com/invertase/react-native-firebase/compare/v18.0.0...v18.1.0) (2023-06-22)
+
+### Features
+
+- **remote-config:** realtime config updates ([9ded619](https://github.com/invertase/react-native-firebase/commit/9ded619e81c1523d7fa0cdbda8fc94929450a967))
+
+### Bug Fixes
+
+- **remote-config, ios:** workaround firebase-ios-sdk[#11458](https://github.com/invertase/react-native-firebase/issues/11458) until SDK v10.12.0 ([8c75849](https://github.com/invertase/react-native-firebase/commit/8c758496c2fadc506805f81d1619ebce21a413df))
+
 ## [18.0.0](https://github.com/invertase/react-native-firebase/compare/v17.5.0...v18.0.0) (2023-06-05)
 
 **Note:** Version bump only for package @react-native-firebase/remote-config
